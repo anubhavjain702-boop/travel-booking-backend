@@ -266,16 +266,15 @@ The application returns a validation error when an unsupported payment method su
 | Duplicate payment attempt | `409 Conflict` |
 
 The application uses custom exceptions and a global exception handler to return structured error responses.
-
 ## Screenshots
 
-### Create Booking
+### 1. Create Booking
 ![Create Booking](./screenshots/create-booking.png)
 
-### Successful Payment
+### 2. Successful Payment
 ![Successful Payment](./screenshots/successful-payment.png)
 
-### Error Response
+### 3. Error Response
 ![Error Response](./screenshots/error-response.png)
 
 ## Testing
