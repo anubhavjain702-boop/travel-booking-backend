@@ -270,12 +270,15 @@ The application uses custom exceptions and a global exception handler to return 
 ## Screenshots
 
 ### 1. Create Booking
+
 ![Create Booking](./screenshorts/create-booking.png)
 
 ### 2. Successful Payment
+
 ![Successful Payment](./screenshorts/successful-payment.png)
 
 ### 3. Error Response
+
 ![Error Response](./screenshorts/error-response.png)
 
 ## Testing
