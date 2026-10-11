@@ -93,8 +93,8 @@ If the application fails to start with a database connection error, verify that 
 Clone the repository:
 
 ```bash
-git clone https://github.com/anubhavjain702-boop/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/anubhavjain702-boop/travel-booking-backend.git
+cd travel-booking-backend
 ```
 
 Replace `<repository-name>` with the name of this repository.
