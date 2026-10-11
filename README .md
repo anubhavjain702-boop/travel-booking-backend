@@ -269,17 +269,20 @@ The application uses custom exceptions and a global exception handler to return 
 
 ## Screenshots
 
-### Create Booking
+### 1. Create Booking
+This screenshot shows the successful creation of a hotel booking.
 
-![Create booking](screenshots/create-booking.png)
+![Create Booking](screenshots/create-booking.png)
 
-### Successful Payment
+### 2. Successful Payment
+This screenshot shows the successful payment processing for a booking.
 
-![Successful payment](screenshots/successful-payment.png)
+![Successful Payment](screenshots/successful-payment.png)
 
-### Error Response
+### 3. Error Response
+This screenshot demonstrates the API error response when an invalid request is submitted.
 
-![Error response](screenshots/error-response.png)
+![Error Response](screenshots/error-response.png)
 
 ## Testing
 
