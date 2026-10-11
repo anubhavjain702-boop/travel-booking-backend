@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionHandler {
 	
 
-
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	@ResponseStatus(HttpStatus.BAD_REQUEST)
 	public Map<String, String> handleValidationException(MethodArgumentNotValidException ex) {
@@ -50,7 +49,7 @@ public class GlobalExceptionHandler {
 	@ExceptionHandler(BookingValidationException.class)
 	public ResponseEntity<Map<String, Object>> handleBooingValidation(BookingValidationException ex){
 		Map<String, Object> error = new HashMap<>();
-		error.put("Status", 400);
+		error.put("status", 400);
 		error.put("message", ex.getMessage());
 		error.put("timestamp", LocalDateTime.now());
 		
@@ -72,7 +71,7 @@ public class GlobalExceptionHandler {
 	public ResponseEntity<Map<String,Object>> handleHotelNotFound(HotelNotFoundException ex){
 		
 		Map<String, Object> error = new HashMap<>();
-		error.put("stataus", 404);
+		error.put("status", 404);
 		error.put("message", ex.getMessage());
 		error.put("timestamp", LocalDateTime.now());
 		
